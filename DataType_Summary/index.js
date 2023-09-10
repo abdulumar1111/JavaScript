@@ -31,13 +31,38 @@ console.log(id === anotherId);
 // Object
 // Function
 
-const heros = ["Shaktiman", "Doga", "NaagRaj"];
+// const heros = ["Shaktiman", "Doga", "NaagRaj"];
 
-let myObj = {
-  name: "Zeeshan",
-  age: 25,
-};
+// let myObj = {
+//   name: "Zeeshan",
+//   age: 25,
+// };
 
-const myFunction = function () {
-  console.log("Hello Zeeshan");
-};
+// const myFunction = function () {
+//   console.log("Hello Zeeshan");
+// };
+
+
+
+
+
+// Stack(Primitive) and Heap(Non-Primitive)
+
+// let myName = "Zeeshan Ansari";
+// let anotherName = myName;
+// anotherName = "Rizwan Ansari";
+
+// console.log(anotherName)
+// console.log(myName);
+
+
+let userOne = {
+  email:"abc123@gmail.com",
+  upi:"abc@123axis.com"
+}
+
+let userTwo = userOne;
+userTwo.email = "xyz2212@gmail.com"
+
+console.log(userTwo.email);
+console.log(userOne.email)
